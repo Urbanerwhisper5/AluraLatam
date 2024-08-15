@@ -1,0 +1,173 @@
+body{
+background-color: #fadacb;
+}
+
+.imagen {
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    width: 120px;
+    height: 48px;
+}
+
+.texto {
+    position: absolute;
+    left: 1032px;
+    top: 619px;
+    width: 336px;
+    height: 122px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+}
+
+.imagen2 {
+    position: absolute;
+    left: 1032px;
+    top: 283px;
+    width: 336px;
+    height: 304px;
+}
+
+.imagen3 {
+    position: absolute;
+    left: 1000px;
+    top: 40px;
+    width: 400px;
+    height: 944px;
+    border-radius: 32px;
+}
+
+.imagen4 {
+    position: absolute;
+    left: 240px;
+    top: 830px;
+    width: 229px;
+    height: 18px;
+}
+
+.button1 {
+    position: absolute;
+    left: 240px;
+    top: 853px;
+    width: 328px;
+    height: 67px;
+}
+
+.button2 {
+    position: absolute;
+    left: 592px;
+    top: 853px;
+    width: 328px;
+    height: 67px;
+}
+
+.button3 {
+    position: absolute;
+    left: 1032px;
+    top: 853px;
+    width: 336px;
+    height: 67px;
+    border: none; 
+    background-color: transparent; 
+    cursor: pointer; 
+    }
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.mensaje1 {
+font-weight: bold;
+font-size: 24px; 
+line-height: 1.2;
+position: absolute;
+left: 1032px;
+top: 619px;
+width: 336px;
+height: 122px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family: 'Inter', sans-serif;
+}
+
+.mensaje2 {
+font-weight: normal;
+font-size: 16px; 
+margin-top: 8px;
+
+position: absolute;
+left: 1032px;
+top: 693px;
+width: 336px;
+height: 122px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+font-family: 'Inter', sans-serif;
+}
+
+.mensaje3 {
+    font-weight: normal;
+    font-size: 24px; 
+    margin-top: 8px;
+    
+    position: absolute;
+    left: 1032px;
+    top: 72px;
+    width: 336px;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    display: none;
+    border:none;
+    background-color: transparent;
+    }
+
+.texto-prompt {
+position: absolute;
+left: 240px;
+top: 168px;        
+width: 680px;
+height: 630px;
+padding: 10px;
+font-size: 16px;
+font-family: 'Inter', sans-serif;
+color: #E46C24;
+border: none;
+background-color: transparent;
+outline: none;
+font-size: 32px;
+color: #E46C24;
+}
+
+.texto-prompt::placeholder{
+color: #E46C24;
+}
+
+.button1 {
+    border: none; 
+    outline: none;
+    background-color: transparent;
+    padding: 0; 
+    cursor: pointer; 
+}
+
+.button2 {
+    border: none; 
+    outline: none;
+    background-color: transparent; 
+    padding: 0; 
+    cursor: pointer;
+}
+
